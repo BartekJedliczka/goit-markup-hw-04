@@ -46,6 +46,10 @@ img {
   list-style: none;
 }
 
+.link {
+  list-style: none;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -59,7 +63,6 @@ img {
 
 .section {
   padding-top: 94px;
-  /* padding-bottom: 94px; */
 }
 
 .section:not(.our-strengths) {
@@ -205,14 +208,11 @@ img {
 
 /* ========== OUR STRENGTHS ========== */
 
-.our-strengths .container {
-  display: flex;
-}
-
 .our-strengths-list {
   display: flex;
   justify-content: space-between;
 }
+
 .our-strengths-list-item {
   max-width: 270px;
   align-items: center;
@@ -235,13 +235,10 @@ img {
 /* ========== END OUR STRENGTHS ========== */
 
 /* ========== WORK ========== */
-.work .container {
-  display: flex;
-  flex-direction: column;
-}
 
 .work-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .secondary-header {
@@ -253,13 +250,13 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* .work-list-photo:not(:last-child) {
-  margin-right: 30px;
-} */
-
-.work-list-photo {
+.work-list-photo:not(:last-child) {
   margin-right: 30px;
 }
+
+/* .work-list-photo {
+  margin-right: 30px;
+} */
 /* ========== END WORK ========== */
 
 /* ========== OUR TEAM ========== */
