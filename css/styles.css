@@ -519,6 +519,10 @@ img {
 
 /* PORTFOLIO */
 
+.footer-web {
+  margin-right: 70px;
+}
+
 .social-header {
   color: var(--white-color);
   font-family: "Roboto";
@@ -527,6 +531,11 @@ img {
   line-height: 1.187;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-list {
