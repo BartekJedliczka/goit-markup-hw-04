@@ -10,6 +10,7 @@
   --white-bgc: #ffffff;
   --dark-bgc: #2f303a;
   --grey-bgc: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -150,6 +151,9 @@ img {
   display: flex;
   align-items: center;
 }
+.navigation-list-link-active {
+  color: var(--blue-color);
+}
 
 .navigation-list-item:not(:last-child) {
   margin-right: 46px;
@@ -162,6 +166,12 @@ img {
 
 .address-list-link {
   margin-left: 50px;
+}
+
+.address-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: currentColor;
 }
 
 /* ========== END HEADER ========== */
@@ -232,6 +242,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
+
+.our-strengths-icon-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background: var(--grey-bgc);
+  border-radius: 4px;
+}
 /* ========== END OUR STRENGTHS ========== */
 
 /* ========== WORK ========== */
@@ -295,6 +315,37 @@ img {
   color: var(--grey-color);
   margin-bottom: 30px;
 }
+
+.our-social-list {
+  margin-bottom: 30px;
+}
+
+.our-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.our-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.our-social-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  fill: var(--icon-color);
+  background-color: var(--white-color);
+  border-radius: 50%;
+}
+
+.our-social-link:hover,
+.our-social-link:focus {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
 /* ========== END OUR TEAM ========== */
 
 /* ========== FOOTER ========== */
