@@ -389,12 +389,15 @@ img {
 /* ========== FOOTER ========== */
 .footer .container {
   display: flex;
-  /* flex-direction: column; */
   align-items: baseline;
 }
 
 .footer {
   padding: 60px 0;
+}
+
+.footer-web {
+  margin-right: 70px;
 }
 
 .footer-address-list-item {
@@ -422,6 +425,43 @@ img {
 .footer-address-list-link:focus {
   color: var(--blue-color);
 }
+
+.social-header {
+  color: var(--white-color);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+  border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--blue-color);
+  fill: var(--white-color);
+}
+
 /* ========== END FOOTER ========== */
 
 /* = = = = = = PORTFOLIO = = = = = = */
@@ -518,43 +558,3 @@ img {
 /* ========== END PROJECT ========== */
 
 /* PORTFOLIO */
-
-.footer-web {
-  margin-right: 70px;
-}
-
-.social-header {
-  color: var(--white-color);
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.187;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-list {
-  display: flex;
-}
-
-.social-list-link {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 44px;
-  width: 44px;
-  background: rgba(255, 255, 255, 0.1);
-  fill: var(--white-color);
-  border-radius: 50%;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--blue-color);
-  fill: var(--white-color);
-}
