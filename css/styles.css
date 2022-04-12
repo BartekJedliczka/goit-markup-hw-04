@@ -369,6 +369,22 @@ img {
   border-radius: 4px;
 }
 
+.our-customer-list-link:hover,
+.our-customer-list-link:focus {
+  border-color: var(--blue-color);
+  fill: var(--blue-color);
+}
+
+/* .customers .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.customers-list-item {
+  display: flex;
+  justify-content: center;
+} */
+
 /* ========== END OUR CUSTOMER ========== */
 
 /* ========== FOOTER ========== */
