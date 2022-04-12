@@ -348,6 +348,29 @@ img {
 
 /* ========== END OUR TEAM ========== */
 
+/* ========== OUR CUSTOMER ========== */
+
+.our-customer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-customer-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-customer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+}
+
+/* ========== END OUR CUSTOMER ========== */
+
 /* ========== FOOTER ========== */
 .footer .container {
   display: flex;
